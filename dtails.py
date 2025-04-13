@@ -3,6 +3,7 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
+from ttkthemes import ThemedStyle
 import tkinter.messagebox as msgbox
 from PIL import ImageTk, Image
 import os
@@ -16,6 +17,7 @@ class MyApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("DTails")
+        style = ThemedStyle(self)
         style.set_theme("clam")
         self.tab_control = ttk.Notebook(self)
         self.tab1 = ttk.Frame(self.tab_control)
