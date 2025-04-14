@@ -16,17 +16,22 @@
 
 DTails is a tool that helps to add software in Debian based live images like Tails. DTails is not a distribution.
 
+# ℹ️ State of the fork
+- Better GUI
+- Software list versioning updated
+- Better debugging
+
 ## 📦 Packages requirements
 
 ```bash
-sudo apt-get install genisoimage parted squashfs-tools syslinux-utils build-essential python3-tk python3-pil.imagetk python3-pyudev
+sudo apt satisfy genisoimage parted squashfs-tools syslinux-utils build-essential python3-tk python3-pil.imagetk python3-pyudev -y
 ```
 
 ## 🛠 Getting started
 Clone the repository with:
 
 ```bash
-git clone https://github.com/DesobedienteTecnologico/dtails
+git clone https://github.com/BangalaXMR/dtails
 ```
 
 Once you have clone the repository and you get inside the directory. Run this to start the GUI:
