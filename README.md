@@ -46,14 +46,16 @@ sudo ./dtails.py
 Sudo is needed to mount the <b>.iso / .img</b> into a directory, as well to use other software. Without it, we can't use those GNU/Linux tools.
 
 ### 1. 💿 Select the Tails image
+<img src="img/gui.png" width="600"/>
 
-<img alt="Dtails" src="https://user-images.githubusercontent.com/52879067/236019250-538e9353-053d-446e-ac89-c01fe824d51f.png" width="400"/>
+### 1.1 Verify GnuPG signature
+<img src="img/gnupg.png" width="600"/>
 
 ### 2. 📥 / 📤 Add or remove packages
  1. Click on the checkboxes to add (Left) or remove (Right) the software you like.
  2. Click on "Build" once you are ready to build your image.
 
-<img alt="Dtails" src="https://github.com/DesobedienteTecnologico/dtails/assets/52879067/2a1177c6-3306-4c84-ae85-62b0989b739f" width="450"/>
+<img alt="GUI" src="img/gui2.png" width="600"/>
 
 You can keep track in that is happening in your terminal.
 
