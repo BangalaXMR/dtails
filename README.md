@@ -18,6 +18,7 @@ DTails is a tool that helps to add software in Debian based live images like Tai
 
 # ℹ️ State of the fork
 - Better GUI
+- Gnupg verification of the image
 - Software list versioning updated
 - Better debugging
 
